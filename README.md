@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+This is **README** file
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Multi Step Registration form
 
-Currently, two official plugins are available:
+**Task**
+A. Build a multi-step registration form using any form library and Yup validation. The form should collect the
+following information from the user:
+1. Step 1 : Personal Information
+- Full Name (required)
+- Email Address (required, valid email format)
+- Date of Birth (requuired, with date validation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Step 2: Address Information
+- Street Address (required)
+- City (required)
+- State (requuired)
+- Zip Code (required, valid format)
 
-## Expanding the ESLint configuration
+3. Step 3: Account Information
+- Username (required)
+- Password (required, strong password validation)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+B. Use tailwind CSS components for the form inputs, layoutm and styling
+C. Implement client-side validation using any form library and Yup. Display appropriate error messages
+D. Create react componen that renders the multi-step foem. Use useState to manage the form's state and progress through the steps.
+E. Deploy your application to Netlify/Vercel.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Layout: 
