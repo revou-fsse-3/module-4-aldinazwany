@@ -25,4 +25,4 @@ C. Implement client-side validation using any form library and Yup. Display appr
 D. Create react componen that renders the multi-step foem. Use useState to manage the form's state and progress through the steps.
 E. Deploy your application to Netlify/Vercel.
 
-Layout: 
+Layout: https://6585a768caaaa7dae2ca8f6b--musical-souffle-884aea.netlify.app/
